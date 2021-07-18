@@ -5,6 +5,9 @@
     position: fixed;
     z-index: 999;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .NavBar nav ul {
@@ -20,4 +23,9 @@
 
 .NavBar nav ul li a {
     text-decoration: none;
+    color: white;
+}
+
+.NavBar a:hover {
+    color: teal;
 }
